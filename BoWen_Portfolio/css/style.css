@@ -1,0 +1,544 @@
+/* *{border:1px solid black} */
+
+img{
+  align-self: center;
+}
+
+body{
+  margin: 0;
+  height: 100%;
+}
+
+#Selected {
+  text-decoration: underline;
+  color: darkblue;
+}
+
+.FriendsSection img {
+  height: 150px;
+}
+
+.navBar{
+list-style-type: none;
+  margin-top: 20px;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  flex: 95%;
+  width: 100%;
+}
+
+.HomeBody{
+  background-image: url('../Images/BG.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 110%;
+}
+
+.BlueBG{
+  background-color: rgb(187, 251, 255);
+}
+
+.lighterBlueBG{
+  background-color: rgb(210, 248, 255);
+}
+
+.AboutMeContent hr{
+  height:2px; 
+  width: 99%;
+  background-color: black;
+}
+
+.EducationContent div h2{
+  margin-left: 3%;
+  margin-bottom: -3px;
+  color: rgb(0, 47, 148);
+}
+
+.EducationContent td{
+border: 3px solid #7c7c7c;
+}
+
+
+
+.headerNavBar{
+  background-color: rgb(124, 150, 255);
+   display: flex;
+   justify-content: left;
+   width: 100%;
+   height: 100px;
+}
+
+.navBar li a:hover {
+  text-decoration: underline;
+}
+
+.navBar li a{
+  color: rgb(54, 111, 201);
+  font-weight:1000;
+}
+
+.aspirationSection div{
+  margin-top: 20px;
+  padding-bottom: 35px;
+}
+
+
+
+.AboutMeContent section div{
+    padding: 10px;
+}
+
+.LearnBtn{
+  background-color: rgb(146, 219, 255);
+  text-decoration: none;
+    margin-left: 25%;
+    padding: 10px 25px;
+    border: 3px solid #464646;
+    box-shadow: 0 5px 0 2px;
+}
+
+.LearnBtn:hover{
+   background-color: rgb(109, 185, 208);
+}
+
+.FindoutMoreBtn{
+  background-color: rgb(244, 255, 146);
+  text-decoration: none;
+  align-self: center;
+    padding: 10px 20px;
+    margin-top: 2%;
+    border: 3px solid #464646;
+    box-shadow: 0 5px 0 2px;
+    max-width: 120px;
+}
+
+.FindoutMoreBtn:hover{
+   background-color: rgb(208, 187, 109);
+}
+
+
+#B_Txt{
+font-size: 45px;
+color: rgb(79, 60, 185);
+}
+
+.navBar li a{
+  display: block;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+  width: 150px;
+  padding: 20px;
+}
+
+
+
+.txtLogo{
+  margin-left: 20px;
+  flex: 3%;
+}
+
+.HomeContent img{
+   width: 100%;
+}
+
+.HomeContent section{
+    margin-top: 35px;
+    display: grid;
+    grid-template-columns: 1fr  1fr;
+    height: 550px;
+   
+}
+
+/* Get the 2nd section div within HomeContent to make it float to the left*/
+.HomeContent section div:nth-of-type(2) div {
+   float: right;
+}
+
+.EducationContent{
+  padding: 1%;
+}
+
+/* Create 2 by 2 grid*/
+.EducationContent section{
+  margin: auto;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    
+}
+
+.EducationContent section div{
+    text-align: center;
+    background-color: rgb(219, 255, 241);
+    margin: 5px;
+    border: 2px solid #000000;
+}
+
+.EducationContent img{
+  height: 300px;
+}
+
+.EducationContent hr{
+
+  height:2px; 
+  width: 200px;
+  background-color: black;
+  margin-left: 0;
+}
+.IntroAboutMe h2 {
+  text-align: center;
+}
+
+.IntroAboutMe > div{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    width: 85%;
+    height: 330px;
+}
+
+.IntroAboutMe img{
+  float: right;
+}
+
+.IntroAboutMe div p{
+  font-size: 25px;
+}
+
+.aspirationSection{
+    width: 100%;
+    margin: 0;
+    padding:0;
+    height: 20%;
+    background-color: rgb(236, 255, 248);
+    text-align: center;
+}
+
+.aspirationSection div p {
+  font-size: 25px;
+}
+
+
+
+.AboutMeContent div h1{
+    padding-left: 3%;
+}
+
+/* Get the 2nd section p within AboutMeContent to set the width*/
+.AboutMeContent section:nth-of-type(2) p{
+    width: 70%;
+    margin: auto;
+}
+
+.myHobbiesSection{
+    margin: auto;
+    width: 95%;
+    background-color: rgb(222, 255, 247);
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    text-align: left;
+
+    padding: 1%;
+}
+
+.myHobbiesSection img {
+  width: 80%;
+}
+
+.HobbiesContent section{
+  margin: 0;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.HobbiesContent section div{
+    display: flex;
+    justify-self: center;
+}
+
+.HobbiesContent section h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+.GameDisplaySection {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+}
+.MyGameSection div div{
+   min-height: 500px;
+}
+
+.MyGameSection div div div{
+    margin: 5px;
+    padding: 10px;
+    background-color: rgb(159, 255, 231);
+    border: 3px solid #000000;
+
+    max-width: 370px;
+    min-height: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.MyGameSection div div div img{
+    display: flex;
+    max-height: 250px;
+    max-width: 300px;
+}
+
+.MyGameSection div div div p{
+    max-width: 370px;
+
+}
+
+
+.HobbiesContent iframe{
+  width: 410px; 
+  height: 375px;
+}
+
+.HomeContent section div{
+  padding: 0;
+  padding-left: 5%;
+    
+}
+
+.HomeContent h3{
+    padding-left: 10px;
+    font-size: 25px;
+}
+
+.HomeContent h2:nth-of-type(1){
+    padding-left: 20px;
+    font-size: 30px;
+}
+
+.HomeContent h2:nth-of-type(2){
+    padding-left: 30px;
+    font-size: 40px;
+}
+
+.HomeContent p{
+    padding-left: 50px;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+
+
+
+@media (max-width: 1280px){
+  
+.myHobbiesSection p {
+  padding-left: 25px;
+}
+
+.HobbiesContent section div{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.HobbiesContent iframe{
+  width: 410px; 
+  height: 375px;
+}
+
+.EducationContent section{
+  margin: auto;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+}
+
+@media (max-width: 785px){
+#B_Txt{
+font-size: 45px;
+color: rgb(79, 60, 185);
+}
+ 
+.navBar li {
+  width: 75px;
+  margin: 0;
+}
+
+.navBar li a{
+  display: block;
+  text-align: left;
+  text-decoration: none;
+  width: 50px;
+  font-size: 13px;
+  margin: 0;
+  padding: 5;
+}
+
+.HomeContent section{
+  padding: 2%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    height: 100%;
+   
+}
+.HomeContent h3{
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.HomeContent h2:nth-of-type(1){
+    padding-left: 20px;
+    font-size: 25px;
+}
+
+.HomeContent h2:nth-of-type(2){
+    padding-left: 30px;
+    font-size: 35px;
+}
+
+.HomeContent p{
+    padding-left: 40px;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.HomeContent div{
+    margin: auto;
+   
+}
+
+.HomeContent img{
+  margin-top: 30px;
+   width: 100%;
+}
+
+.EducationContent{
+  padding: 1%;
+}
+
+.EducationContent img{
+  height: 200px;
+}
+
+/* Create 1 column and 3 rows*/
+.EducationContent section{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    
+}
+
+.EducationContent section div{
+    text-align: center;
+    background-color: rgb(219, 255, 241);
+    margin: 3px;
+    border: 2px solid #000000;
+}
+
+.EducationContent hr{
+
+  height:2px; 
+  width: 150px;
+  background-color: black;
+  margin-left: 0;
+}
+
+.IntroAboutMe h2 {
+  text-align: center;
+}
+
+.IntroAboutMe > div{
+    margin: auto;
+    display: grid;
+    grid-template-columns:1fr;
+    grid-template-rows:repeat(3, 1fr) ;
+    width: 85%;
+    height: 330px;
+}
+
+
+.aspirationSection{
+    width: 100%;
+    margin-top: 170px;
+    padding:0;
+    height: 20%;
+    background-color: rgb(236, 255, 248);
+    text-align: center;
+}
+
+.aspirationSection div p {
+  font-size: 15px;
+}
+
+.IntroAboutMe div p{
+  font-size: 15px;
+}
+
+.AboutMeContent div h1{
+    padding-left: 3%;
+}
+
+.AboutMeContent section p{
+    width: 80%;
+    margin: auto;
+}
+
+/* Create 1 column and 2 rows*/
+.myHobbiesSection{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    height: 100%;
+}
+
+.HobbiesContent section{
+  margin: auto;
+  margin-top: 10px;
+  width: 100%;
+  
+}
+
+.HobbiesContent section h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+.MyGameSection div div div{
+    background-color: rgb(159, 255, 231);
+    border: 3px solid #000000;
+    margin: 3px;
+    padding: 3px;
+    
+    min-height: 370px;
+    display: flex;
+    flex-direction: column;
+}
+
+.MyGameSection div div{
+  width: 360px; 
+  height: 250px;
+  margin: auto;
+}
+
+.MyGameSection div div div img{
+    width: 98%;
+}
+
+}
